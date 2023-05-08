@@ -1,0 +1,50 @@
+.RegistrationForm {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.RegistrationForm label {
+    margin: 10px 0;
+    font-size: 18px;
+    font-weight: bold;
+}
+
+.RegistrationForm input[type="text"],
+.RegistrationForm input[type="number"],
+.RegistrationForm select {
+    width: 100%;
+    height: 40px;
+    padding: 5px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    font-size: 16px;
+}
+
+.RegistrationForm input[type="text"]:focus,
+.RegistrationForm input[type="number"]:focus,
+.RegistrationForm select:focus {
+    outline: none;
+    border-color: #61dafb;
+}
+
+.RegistrationForm span {
+    color: red;
+    font-size: 14px;
+    margin: 5px 0;
+}
+
+.RegistrationForm button[type="submit"] {
+    margin: 20px 0;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    background-color: #61dafb;
+    color: white;
+    font-size: 18px;
+    cursor: pointer;
+}
+
+.RegistrationForm button[type="submit"]:hover {
+    background-color: #5cb8d1;
+}
